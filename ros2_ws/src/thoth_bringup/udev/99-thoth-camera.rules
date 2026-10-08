@@ -1,0 +1,1 @@
+SUBSYSTEM=="video4linux", ATTR{name}=="Rapoo Camera*", ATTR{index}=="0", SYMLINK+="thoth_camera"

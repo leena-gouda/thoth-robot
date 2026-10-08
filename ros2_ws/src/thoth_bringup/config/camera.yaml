@@ -1,0 +1,8 @@
+/**:
+  ros__parameters:
+    video_device: "/dev/thoth_camera"
+    image_width: 1920
+    image_height: 1080
+    pixel_format: "mjpeg2rgb"
+    framerate: 30.0
+    camera_name: "rapoo_c260"

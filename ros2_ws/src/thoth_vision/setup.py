@@ -22,8 +22,9 @@ setup(
             'pytest',
         ],
     },
-    entry_points={
+        entry_points={
         'console_scripts': [
+            'visitor_perception_node = thoth_vision.visitor_perception_node:main',
         ],
     },
 )

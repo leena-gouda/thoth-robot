@@ -1,0 +1,12 @@
+/**:
+  ros__parameters:
+    image_topic: "/image_raw/compressed"
+    max_rate_hz: 10.0          # analyses per second (cap; leaves GPU for LLM/STT later)
+    publish_annotated: true    # /visitor/annotated/compressed for rqt (only encoded when someone watches)
+    annotated_width: 960
+    switch_ratio: 1.2          # new face must be 20% bigger to take over as primary visitor
+    device: "auto"             # auto | cuda | cpu
+    det_size: 640
+    min_face_px: 40
+    age_min_conf: 0.4
+    emo_min_conf: 0.4
